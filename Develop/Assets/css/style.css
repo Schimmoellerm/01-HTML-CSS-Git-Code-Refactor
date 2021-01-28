@@ -1,13 +1,18 @@
+/* Sets universal page properties, specifically allows nav bar and main picture to align */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* Sets the background color for the body of the document*/
 body {
     background-color: #d9dcd6;
 }
 
+
+/* sets header style, includes color of main top bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +20,21 @@ body {
     color: #ffffff;
 }
 
+
+/*size and orientation of the title*/
  h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+/*special spanned section of the header that styles the leters SEO in horiseon*/
 .seo {
     color: #d9dcd6;
 }
 
+
+/*navigation bar styling*/
 div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +43,22 @@ div {
     font-size: 20px;
 }
 
-ul {
-    list-style-type: none;
-}
 
+/*navigation bar styling*/
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/*navigation bar styling,specifically removes underlined link style*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
+/*"meeting" picture styling at the top of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +68,8 @@ a {
     background-position: center;
 }
 
+
+/*specific styling for three main sections of doc*/
 .content {
     width: 75%;
     display: inline-block;
@@ -65,7 +80,7 @@ p {
     font-size: 16px;
 }
 
-.search-engine-optimization {
+.Horiseon-Pillars {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,50 +89,15 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.Horiseon-Pillars img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.Horiseon-Pillars h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -128,6 +108,8 @@ p {
     margin-left: 25px;
 }
 
+
+/*styling for aside "benefits" section of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -139,19 +121,9 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;   
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
 
 h3 {
@@ -159,24 +131,13 @@ h3 {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-sub img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*styling for copyright and footer text*/
 .footer {
     padding: 30px;
     clear: both;
